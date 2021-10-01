@@ -1,1 +1,1 @@
-# New-repository
+Repository for my petstop project
