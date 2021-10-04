@@ -2,21 +2,19 @@
 <html>
 
 <body>
-
+    <h1> Fruit adder </h1>
+    <p> The length property allows me to easily add new elements to my array live on a webpage using a button.</p>
+    <p> This is done without the push command.</p>
+    <button onclick="FuncAppend()">Add</button> <!-- creates a button -->
+    <p id = "demo"></p> <!-- sets an ID to be called later to add text here-->
+    <script>
+        const Fruit = ["Appe","Orange","Banana","Pear"]; //creates a list
+    
+    function FuncAppend() { //creates a function, inputs no paramiters
+        Fruit.push("Strawberry");  // pushes the string "strawberry" onto the list fruit
+        document.getElementById("demo").innerHTML = Fruit; //prints the list and adds strawberry to the end
+    }
+    </script>
 </body>
 
 </html>
-
-<script>
-    let Fruit1 = "apple"
-    let Fruit2 = "banana"
-    let Fruit3 = "pear"
-    let Fruit4 = "orange"
-
-    console.log (Fruit1+",",Fruit2+",",Fruit3+",",Fruit4)
-
-    const Fruits = ["apple", "banana", "pear", "orange"]
-    console.log (Fruits[0])
-    Fruits.push("melon")
-    console.log (Fruits[4])
-</script>
