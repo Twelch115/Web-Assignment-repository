@@ -6,7 +6,8 @@
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Latest compiled and minified CSS -->
     </head>
     <body>
-      <nav class = "navbar navbar-expand-lg navbar-light bg-primary">  <!--initalizes a navigation bar that spans the page with black text and a light background -->
+
+      <nav class = "navbar navbar-expand-lg navbar-light bg-primary sticky-top">  <!--initalizes a navigation bar that spans the page with black text and a light background -->
         <div class = "container-fluid">  <!--initalizes a container.fluid for text in the navbar-->
           <a class="navbar-brand" href="http://ua92.saxtons.org.uk/New-repository/index.html"> <img src="images/kitten.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> Pet Purrfection</a> <!-- sets the site name on the far left of the nav bar, can be linked to another website-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,14 +25,13 @@
                     <a class="nav-link active" href="#"> PET ACCESSORIES </a>   
                   </li>
                   <li class = "nav-item">   
-                    <a class="nav-link active" href="#"> CART <img src="images/cart.png" alt="cart" style="width:40px;" class="img-thumbnail"> </a>    
+                    <a class="nav-link active" href="#"> CART <img src="images/cart.png" alt="cart" style="width:40px;" class="img-thumbnail"> </a> <!-- adds the image of a cart to this link-->   
                   </li>
                 </ul>
               </div>
+        </div>      
       </nav>  
-        
-        <!-- Carousel -->
-
+      
         <div id="demo" class="carousel slide" data-bs-ride="carousel"> <!-- initialises the carousel-->
           <div class="carousel-indicators"> <!-- creates three slides on this carousel, and adds a button on the bottom for each-->
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
