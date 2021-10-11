@@ -42,4 +42,18 @@ var Pets = {
         Img : "",
         Price : 60,
     },
+    201: {
+        Name : "Jake",
+        Breed : "German Shepard",
+        Desc : "3 year-old, brown fur, fun personality",
+        Img : "",
+        Price : 50,
+    },
+    204: {
+        Name : "Bertie",
+        Breed : "Norwegian Forest",
+        Desc : "7 year-old, black/grey fur, independant personality",
+        Img : "",
+        Price : 60,
+    },
 }
