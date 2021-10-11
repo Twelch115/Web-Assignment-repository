@@ -37,7 +37,7 @@ var Pets = {
     },
     106: {
         Name : "Oswald",
-        Breed : "Komodo Dragon",
+        Breed : "snake",
         Desc : "8 year-old, brown//grey scales, sleepy personality",
         Img : "",
         Price : 60,
