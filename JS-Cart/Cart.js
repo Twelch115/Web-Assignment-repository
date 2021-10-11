@@ -14,11 +14,11 @@ var cart = {
         else { Cart.items = JSON.parse(Cart.items); } //ELSE add items in Cart.items to cart
     },
 
-    CLEAR : function () {
-        if (confirm("Empty Your Cart? (cannot be undone)")) {
-          Cart.items = {};
-          localStorage.removeItem("Cart");
-          Cart.list();
+    CLEAR : function () { //empties the cart
+        if (confirm("Empty Your Cart? (cannot be undone)")) { //IF user confirms
+          Cart.items = {}; //set Cart.items to blank
+          localStorage.removeItem("Cart"); //remove Cart from storage
+          Cart.list(); //set Cart.list to empty
         }
     },
 }
