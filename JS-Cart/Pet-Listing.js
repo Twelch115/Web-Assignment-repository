@@ -3,8 +3,8 @@ var Pets = {
     101: {
         Name : "Larry", //pet's name
         Breed : "Parot", //pet's breed
-        Desc : "3 years-old, green feathers, bubbly personality", //description of the pet
-        Img : "", //img file link
+        Desc : "3 years-old, blue/green/yellow feathers, bubbly personality", //description of the pet
+        Img : "../images/Pet Images/Larry.jpg", //img file link
         Price : 25, //pet's price
     },
     102: {
