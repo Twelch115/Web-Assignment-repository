@@ -49,6 +49,19 @@ var Pets = {
         Img : "",
         Price : 50,
     },
+    202: {
+        Name : "Cujo",
+        Breed : "Saint Bernard",
+        Desc : "2 year-old, brown/white fur, aggressive personality",
+        Img : "",
+        Price : 86,
+    203: {
+        Name : "Michaelle",
+        Breed : "Poodle",
+        Desc : "4 year-old, white, quiet personality",
+        Img : "",
+        Price : 30,    
+    },
     204: {
         Name : "Bertie",
         Breed : "Norwegian Forest",
@@ -56,4 +69,18 @@ var Pets = {
         Img : "",
         Price : 60,
     },
-}
+    205: {
+        Name : "Sophie",
+        Breed : "Burmese",
+        Desc : "9 year-old, black fur, shy personality",
+        Img : "",
+        Price : 45,
+    },  
+    206: {
+        Name : "Teddy",
+        Breed : "British Shorthair",
+        Desc : "1 year-old, Ginger fur, excitable personality",
+        Img : "",
+        Price : 20,
+    },  
+}}
