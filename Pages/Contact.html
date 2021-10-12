@@ -7,6 +7,25 @@
         <link rel = "stylesheet" href="Styles.css"> <!-- Adds CSS script-->
         <script src = "JS-Cart/Pet-Listing.js"></script> <!-- connects to JavaScript-->
         <link rel="icon" href="../images/kitten.jpg"> <!-- creates icon -->
+
+        <script>
+            function FUNCValidation() {
+                let x = document.forms["ContactForm"]["forname"].value;
+                let y = document.forms["ContactForm"]["surname"].value;
+                let a = document.forms["ContactForm"]["email"].value;
+                let b = document.forms["ContactForm"]["number"].value;
+                if (x == "") {
+                  alert("Please enter a Forname.");
+                  return false;  
+                } else if (y == "") {
+                  alert("Please enter a Surname.");
+                  return false;
+                } else if (a == "" && b == "") {  
+                  alert("Please enter either a Email adress or phone number.");
+                  return false;
+                }
+            }        
+        </script>
     </head>
     <body>
 
@@ -35,19 +54,22 @@
         </div>      
       </nav> 
 
-      <div class = "container-fluid">
-          <form> <!-- a form to take a first name, last name, email adress and a message for the site-->
+      <div class = "container-fluid text-center">
+        <h1> Contact Us</h1>
+          <form name = "ContactForm" onsubmit = "return FUNCValidation()"> <!-- a form to take a first name, last name, email adress and a message for the site, on it being submit runs the function FUNCValidation-->
               <tbody>
                   <th>
                     <div> Forname </div>
-                    <div> <input class="first" type="Forname" placeholder="First Name "> </div>
+                    <div> <input name = "forname" type="Forname" placeholder="Forname"> </div> <!-- adds form box for first name-->
                     <div> Surname </div>
-                    <div> <input class="last" type="Last Name" placeholder="Last Name "> </div>
-                    <div> Email adress </div>
-                    <div> <input class="email" type="Email" placeholder="Email"> </div>
+                    <div> <input name = "surname" type="Surname" placeholder="Surname"> </div> <!-- adds form box for surname-->
+                    <div> Email Adress </div>
+                    <div> <input name = "email" type="Email" placeholder="Email"> </div> <!-- adds form box for email-->
+                    <div> Phone Number </div>
+                    <div> <input name = "number" type="number" placeholder="number"> </div> <!-- adds form box for phone number-->
                     <div> Message: </div>
-                    <div> <textarea class="textarea"></textarea> </div>
-                    <div> <input class="contactButton" type="Reset" name="Submit!" id="Submit! " value="Submit!" width="50" height="100"> </div>              
+                    <div> <textarea id = "textarea" class="textarea" name = "message"> </textarea> </div> <!-- adds free text box for message-->
+                    <div> <input name = "contactButton" type="submit" name="Submit" id="Submit" value="Submit" width="50" height="100"> </div>  <!-- creates the submit button-->           
             </tbody>
           </form>
       </div>
