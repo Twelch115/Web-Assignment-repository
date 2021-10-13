@@ -17,14 +17,14 @@ var Pets = {
     103: {
         Name : "Sarah",
         Breed : "Rabbit",
-        Desc : "2 years-old, white fur, curious personality",
+        Desc : "2 years-old, grey/white fur, curious personality",
         Img : "",
         Price : 15,
     },
     104: {
         Name : "Ryan",
         Breed : "Gerbil",
-        Desc : "4 years-old , brown fur, excited personality",
+        Desc : "3 years-old , white/brown fur, excited personality",
         Img : "",
         Price : 20,
     },
