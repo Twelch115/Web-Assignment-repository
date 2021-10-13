@@ -1,4 +1,4 @@
-// list of products with names, descriptions and prices.
+// list of products with names, descriptions, breeds, collection adresses and prices.
 var Pets = {
     101: {
         Name : "Larry", //pet's name
@@ -30,7 +30,7 @@ var Pets = {
         Desc : "3 years-old , white/brown fur, excited personality",
         Img : "../images/Pet-Images/Ryan.jpg",
         Price : 20,
-        Adress : "13 Castle Dr, Heswall, Liverpool",
+        Adress : "32 Colin Dr, Liverpool",
     },
     105: {
         Name : "Joe",
@@ -38,7 +38,7 @@ var Pets = {
         Desc : "4 years-old , black scales, relaxed personality",
         Img : "../images/Pet-Images/Joe.jpg",
         Price : 30,
-        Adress : "110 Woolhope rd, Green Hill, Worcester",
+        Adress : "110 Woolhope rd, Worcester",
     },
     106: {
         Name : "Oswald",
@@ -46,7 +46,7 @@ var Pets = {
         Desc : "8 year-old, brown//grey scales, sleepy personality",
         Img : "../images/Pet-Images/Oswald.jpg",
         Price : 60,
-        Adress : "34 Wash ln, Latchford, Warrington",
+        Adress : "34 Wash ln, Warrington",
     },
     201: {
         Name : "Jake",
@@ -69,7 +69,7 @@ var Pets = {
         Desc : "4 year-old, white, quiet personality",
         Img : "../images/Pet-Images/Michelle.jpg",
         Price : 30,  
-        Adress : "14 Hawkins Way, Halisham, Sussex",  
+        Adress : "16 Pierce St, Macclesfield",  
     },
     204: {
         Name : "Bertie",
@@ -77,7 +77,7 @@ var Pets = {
         Desc : "7 year-old, black/grey fur, independant personality",
         Img : "../images/Pet-Images/Bertie.jpg",
         Price : 60,
-        Adress : "14 Hawkins Way, Halisham, Sussex",
+        Adress : "28 Northumberland Rd, Broomhall, Sheffield",
     },
     205: {
         Name : "Sophie",
@@ -85,7 +85,7 @@ var Pets = {
         Desc : "9 year-old, black fur, shy personality",
         Img : "../images/Pet-Images/Sophie.jpg",
         Price : 45,
-        Adress : "14 Hawkins Way, Halisham, Sussex",
+        Adress : "26 Park Ave, Wrexham",
     },  
     206: {
         Name : "Teddy",
@@ -93,6 +93,6 @@ var Pets = {
         Desc : "1 year-old, Ginger fur, excitable personality",
         Img : "../images/Pet-Images/Teddy.jpg",
         Price : 20,
-        Adress : "14 Hawkins Way, Halisham, Sussex",
+        Adress : "11 Royal Ave, Doncaster",
     },  
 }}
