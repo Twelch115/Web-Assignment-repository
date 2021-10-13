@@ -31,7 +31,7 @@ var Pets = {
     105: {
         Name : "Joe",
         Breed : "Salamander",
-        Desc : "4 years-old , green scales, relaxed personality",
+        Desc : "4 years-old , black scales, relaxed personality",
         Img : "",
         Price : 30,
     },
