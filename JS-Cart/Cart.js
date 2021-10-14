@@ -22,17 +22,20 @@ var cart = {
         }
     },
 
-    init :  function (){
+    INITALIZE :  function (){
         cart.hPdt.document.getElementById("cart-products"); //retrieves products file
         cart.hItems = document.getElementById("cart-items"); //retrieves items in cart
 
         cart.hPdt.innerHTML = "";
-        let p, items, parent;
-        for (let id in products) {
-            p = products[id];
-            item = document.createElement("div");
-            item.class.Name = "p-item";
-            cart.hPdt.appendChild(item); 
+        let p, item, part;
+        for (let id in products) { //creates a wrapper to contain all the cart info
+            p = products[id]; //sets p as the products ID
+            item = document.createElement("div"); //creates a DIV element from document called item
+            item.class.Name = "p-item"; 
+            cart.hPdt.appendChild(item); //ads item to cart
+
         }
+        cart.LOAD(); //load cart from previous sessions
+        cart.list(); //lists items currently in the cart
     }
 }
