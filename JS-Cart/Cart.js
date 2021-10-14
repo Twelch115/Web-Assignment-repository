@@ -21,4 +21,18 @@ var cart = {
           Cart.list(); //set Cart.list to empty
         }
     },
+
+    init :  function (){
+        cart.hPdt.document.getElementById("cart-products"); //retrieves products file
+        cart.hItems = document.getElementById("cart-items"); //retrieves items in cart
+
+        cart.hPdt.innerHTML = "";
+        let p, items, parent;
+        for (let id in products) {
+            p = products[id];
+            item = document.createElement("div");
+            item.class.Name = "p-item";
+            cart.hPdt.appendChild(item); 
+        }
+    }
 }
