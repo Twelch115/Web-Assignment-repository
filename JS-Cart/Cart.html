@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html> <!-- set the language for the web browser to use-->
     <head>
-        <meta charset="utf-8">
-        <title>Pet Purrfection</title>
+        <meta charset="utf-8"> <!-- defines the character set used by this page-->
+        <title>Pet Purrfection</title> <!-- sets the title displayed on the tab bar-->
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"> </script> <!-- Latest compiled JavaScript -->
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Latest compiled and minified CSS -->
         <link rel = "stylesheet" href="Cart.css"> <!-- Adds CSS script-->
-        <script src = "JS-Cart/Pet-Listing.js"></script> <!-- connects to JavaScript-->
-        <script src="Cart.js"></script> <!-- ...also connects to JavaScript-->
-        <link rel="icon" href="../images/Icon.jpg"> <!-- creates icon -->
+        <script src = "JS-Cart/Pet-Listing.js"></script> <!-- connects to JavaScript for pet listings-->
+        <script src = "JS-Cart/Accessories-Listing.js"></script> <!-- connects to JavaScript for pet listings-->
+        <script src = "Cart.js"></script> <!--connects to main JavaScript code-->
+        <link rel = "icon" href="../images/Icon.jpg"> <!-- creates icon -->
     </head>
     <body>
 
@@ -39,7 +40,7 @@
 
       <br> 
 
-      <div class = "row"> <!-- this section creates the cart box-->
+      <div class = "row"> 
         <div class = "col-1 text-center"> </div> 
         <div class = "col-10 text-center"> 
           <br> </br> 
@@ -54,6 +55,13 @@
           </div>
         </div> 
         <div class = "col-1 text-center"> </div>  
+      </div>
+
+      <div id="cart-wrap"> <!-- this section creates the product list and current cart -->
+
+        <div id="cart-products"></div>
+  
+        <div id="cart-items"></div>
       </div>
 
       
