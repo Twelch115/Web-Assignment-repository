@@ -22,17 +22,24 @@ var cart = {
         }
     },
 
-    init :  function (){
+    INITIALISE :  function (){
         cart.hPdt.document.getElementById("cart-products"); //retrieves products file
         cart.hItems = document.getElementById("cart-items"); //retrieves items in cart
 
         cart.hPdt.innerHTML = "";
-        let p, items, parent;
+        let p, item, part;
         for (let id in products) {
+
             p = products[id];
             item = document.createElement("div");
             item.class.Name = "p-item";
             cart.hPdt.appendChild(item); 
+
+            part = document.createElement("img"); //creates product image
+            part.src = cart.iURL + p.img;
+            part.className = "p-img";
+            item.appendChild(part);
+
         }
     }
 }
