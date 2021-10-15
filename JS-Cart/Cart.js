@@ -55,6 +55,14 @@ var cart = {
             part.className = "p-price"; ///names the div "p-price"
             item.appendChild(part);
 
+            part = document.createElement("input"); //creates a input
+            part.type = "button"; //sets input to be a button
+            part.value = "Add to Cart"; //sets buttons text as "add to cart"
+            part.className = "cart p-add"; //names the button "p-add"
+            part.onclick = cart.add; //when clicked add related item to cart
+            part.dataset.id = id;
+            item.appendChild(part);
+
         }
         cart.LOAD(); //load cart from previous sessions
         cart.list(); //lists items currently in the cart
