@@ -26,16 +26,16 @@ var products = {
     },
     127: {
         name : "new product",
-        desc : "and through it all, i took the fall, and i did it my way. ",
+        desc : "testestetttetetstsd. ",
         img : "dummy-pdt-a.jpg",
         price : 842
       },
     206: {
-        Name : "Teddy",
-        Breed : "British Shorthair",
-        Desc : "1 year-old, Ginger fur, excitable personality",
-        Img : "../images/Pet-Images/Teddy.jpg",
-        Price : 20,
-        Adress : "11 Royal Ave, Doncaster",
+        name : "Teddy",
+        breed : "British Shorthair",
+        desc : "1 year-old, Ginger fur, excitable personality",
+        img : "../images/Pet-Images/Teddy.jpg",
+        price : 20,
+        adress : "11 Royal Ave, Doncaster",
     },  
   };

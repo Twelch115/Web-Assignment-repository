@@ -7,7 +7,7 @@
   }
   #cart-products, #cart-items {
     box-sizing: border-box;
-    padding: 15px;
+    padding: 12px;
   }
   #cart-products { width: 70%; }
   #cart-items { width: 30%; }

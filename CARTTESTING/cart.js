@@ -64,7 +64,7 @@ var cart = {
   
         // PRODUCT PRICE
         part = document.createElement("div");
-        part.innerHTML = "Â£" + p.price;
+        part.innerHTML = "£" + p.price;
         part.className = "p-price";
         item.appendChild(part);
   
