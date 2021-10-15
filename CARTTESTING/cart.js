@@ -45,10 +45,7 @@ var cart = {
         cart.hPdt.appendChild(item);
   
         // PRODUCT IMAGE
-        part = document.createElement("img");
-        part.src = cart.iURL + p.img;
-        part.className = "p-img";
-        item.appendChild(part);
+        
   
         // PRODUCT NAME
         part = document.createElement("div");

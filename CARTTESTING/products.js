@@ -3,7 +3,7 @@ var products = {
     123: {
       name : "MokBook Thicc",
       desc : "Greatest properly off ham exercise all.",
-      img : "dummy-pdt-b.jpg",
+      
       price : 2034
     },
     124: {
