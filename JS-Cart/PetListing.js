@@ -1,5 +1,5 @@
 // list of products with names, descriptions, breeds, collection adresses and prices.
-var Pets = {
+var pets = {
     101: {
         Name : "Larry", //pet's name
         Breed : "Macaw", //pet's breed
