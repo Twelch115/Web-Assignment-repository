@@ -41,5 +41,7 @@ var cart = {
             item.appendChild(part);
 
         }
+        cart.LOAD(); //load cart from previous sessions
+        cart.list(); //lists items currently in the cart
     }
 }
