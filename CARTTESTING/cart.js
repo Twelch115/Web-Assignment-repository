@@ -67,8 +67,8 @@ var cart = {
         part.innerHTML = "£" + p.price;
         part.className = "p-price";
         item.appendChild(part);
-  
-        // ADD TO CART
+   
+        // ADD TO CART 
         part = document.createElement("input");
         part.type = "button";
         part.value = "Add to Cart";

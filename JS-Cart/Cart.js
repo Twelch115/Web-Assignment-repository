@@ -66,5 +66,14 @@ var cart = {
         }
         cart.LOAD(); //load cart from previous sessions
         cart.list(); //lists items currently in the cart
-    }
-}
+    },
+
+    LIST : function () { //lists items in the cart
+      cart.hItems.innerHTML = "";
+      let item, part, pdt;
+      let empty = true;
+      for (let key in cart.items) {
+        if(cart.items.hasOwnProperty(key)) { empty = false; break; }
+      }
+
+}},
