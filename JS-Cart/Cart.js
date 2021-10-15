@@ -30,7 +30,7 @@ var cart = {
         let p, item, part; //creates let variables p, item and part
         for (let id in PetListing) {
 
-            p = products[id]; 
+            p = PetListing[id]; 
             item = document.createElement("div"); //creates div for items
             item.class.Name = "p-item";
             cart.hPdt.appendChild(item); 
