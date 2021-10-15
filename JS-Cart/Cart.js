@@ -31,14 +31,29 @@ var cart = {
         for (let id in PetListing) {
 
             p = PetListing[id]; 
-            item = document.createElement("div"); //creates div for items
-            item.class.Name = "p-item";
+            item = document.createElement("div"); //creates div for all items
+            item.class.Name = "p-item"; //names the div "p-item"
             cart.hPdt.appendChild(item); 
 
             part = document.createElement("img"); //creates product image
             part.src = cart.iURL + p.img;
-            part.className = "p-img";
-            item.appendChild(part); 
+            part.class.Name = "p-img"; //names the img "p-img"
+            item.appendChild(part);
+            
+            part = document.createElement("div"); //creates a div for product name
+            part.innerHTML = p.name;
+            part.className = "p-name"; //names the div "p-name"
+            item.appendChild(part);
+
+            part = document.createElement("div"); //creates a div for product description
+            part.innerHTML = p.desc;
+            part.className = "p-desc"; //names the div "p-desc"
+            item.appendChild(part);
+
+            part = document.createElement("div"); //creates a div for product price
+            part.innerHTML = "£" + p.price;
+            part.className = "p-price"; ///names the div "p-price"
+            item.appendChild(part);
 
         }
         cart.LOAD(); //load cart from previous sessions
