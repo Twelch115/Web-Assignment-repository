@@ -27,18 +27,18 @@ var cart = {
         cart.hItems = document.getElementById("cart-items"); //retrieves items in cart
 
         cart.hPdt.innerHTML = "";
-        let p, item, part;
+        let p, item, part; //creates let variables p, item and part
         for (let id in products) {
 
-            p = products[id];
-            item = document.createElement("div");
+            p = products[id]; 
+            item = document.createElement("div"); //creates div for each item
             item.class.Name = "p-item";
             cart.hPdt.appendChild(item); 
 
             part = document.createElement("img"); //creates product image
             part.src = cart.iURL + p.img;
             part.className = "p-img";
-            item.appendChild(part);
+            item.appendChild(part); 
 
         }
         cart.LOAD(); //load cart from previous sessions
