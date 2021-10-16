@@ -1,6 +1,6 @@
 var cart = {
     hPdt : null, //list of products for the HTML file
-    hItelms : null, //items to show in the cart on the HTML file
+    hItems : null, //items to show in the cart on the HTML file
     items : {}, //items currently in the cart
     iURL : "../images/ProductImages", //file path for images of the items in the cart
 

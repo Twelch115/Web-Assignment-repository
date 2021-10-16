@@ -18,3 +18,52 @@
     font-weight: 700; /* controls font size */
     cursor: pointer; /* controls cursor appearance */
   }
+
+  #cart-products { /* displays the items for sale */
+    display: list-item; /*sets items to be displayed in a list */
+    list-style: none; /* hides bullet points */
+  }  
+
+  .p-item { /* controls the borders of each item's section */
+    padding: 10px; /* sets the spacing between the text and border */
+    border: 1px solid rgb(109, 99, 99); /* sets border width, style and colour */
+    border-radius: 5px; /* sets the border radius (big curls are) */
+    text-align: center; /* sets the text alignment */
+  }
+
+  .p-name, .p-price { font-weight: 700; } /*sets the font thickness for each item's section */
+  .p-name, .p-desc, .p-price { margin: 5px 0; } /*decides the margin */
+  .p-name { text-transform: uppercase; } /*Captialses the first letter of the name */
+  .p-desc {
+    color: rgb(185, 173, 173); /* sets the colour of the description text */
+    font-size: 0.9em; /* sets the font size for the description text */
+  }
+  .p-price { font-size: 1.35em; } /* sets the font size of the price text */
+  input.p-add { width: 70%; } /*sets the length of the button */
+
+  #cart-items { /* for the cart section */
+    background: #4d3b31; /*sets background colour for cart */
+    color: #fff; /* controls text colour */
+    border-radius: 5px; /* sets the border radius */
+  }
+
+  .c-item { /* for each item in the cart */
+    padding: 10px 0; /* padding between each item */
+    display: flex; /* sets boxes for each item as flexable (can be moved by others */
+    flex-wrap: wrap; /* wraps info about each cart item in this flex */
+  }
+
+  .c-item > * { box-sizing: border-box; } /* controls spacing of quantity and remove buttons */
+  .c-name, .c-total, input.c-empty, input.c-checkout { width: 100%; } /* controls the width of the buttons */
+  .c-total, input.c-empty, input.c-checkout { margin-top: 10px; } /* controls the magins of both buttons */
+  .c-del { width: 25%; } /* controls how the buttons are spaced together ( del is 25% of line qty is 75%) */
+  .c-qty { width: 75%; }
+  .c-total { /* controls total section */
+    font-weight: 700; /* controls total font weight */
+    font-size: 1.2em; /* controls total font size */
+  }
+
+  @media screen AND (max-width: 768px) { /* sets max width of the page */
+    #cart-wrap { grid-template-columns: 60% 40%; } /* controls how the two sections are spaced together */
+    #cart-products { grid-template-columns: auto; } /* sets the columns of the page */
+  }
