@@ -1,11 +1,11 @@
-// list of products with names, descriptions, breeds, collection adresses and prices.
+// list of products with Names, Descriptions, breeds, collection adresses and Prices.
 var Pets = {
     101: {
-        Name : "Larry", //pet's name
+        Name : "Larry", //pet's Name
         Breed : "Macaw", //pet's breed
-        Desc : "3 years-old, blue/green/yellow feathers, bubbly personality", //description of the pet
-        Img : "../images/Pet Images/Larry.jpg", //img file link
-        Price : 25, //pet's price
+        Desc : "3 years-old, blue/green/yellow feathers, bubbly personality", //Description of the pet
+        Img : "../images/Pet Images/Larry.jpg", //Img file link
+        Price : 25, //pet's Price
         Adress : "17 Hawkins Way, Halisham",
     },
     102: {
@@ -96,9 +96,9 @@ var Pets = {
         Adress : "11 Royal Ave, Doncaster",
     },  
     301: {
-        Name : "Food Bowl", //item's name
-        Desc : "Standard pet food bowl, can be filed with many kinds of foods. comes in blue, black and grey", //description of the item
-        Img : "../images/Pet-Images/Food-Bowl.jpg", //img file link
-        Price : 12, //item's price
+        Name : "Food Bowl", //item's Name
+        Desc : "Standard pet food bowl, can be filed with many kinds of foods. comes in blue, black and grey", //Description of the item
+        Img : "../images/Pet-Images/Food-Bowl.jpg", //Img file link
+        Price : 12, //item's Price
     },    
 }}

@@ -4,11 +4,11 @@
     margin: 0 auto; /* controls of thickness of margin */
     max-width: 1000px; /* controls page max width */
   }
-  #Cart-products, #Cart-items { /* affects both sections of the page */
+  #Cart-PetListings, #Cart-items { /* affects both sections of the page */
     box-sizing: border-box; /*controls the width and height of the sections (makes them span witth of page) */
     padding: 15px; /* controls the gap between the sections */
   }
-  #Cart-products { width: 70%; } /* sets width of products section */
+  #Cart-PetListings { width: 70%; } /* sets width of products section */
   #Cart-items { width: 30%; } /* sets width of Cart section */
   input.Cart, button.Cart { /* creates a button for the page to use */
     padding: 10px; /* controls the size of the button */
@@ -19,7 +19,7 @@
     cursor: pointer; /* controls cursor appearance */
   }
 
-  #Cart-products { /* displays the items for sale */
+  #Cart-PetListings { /* displays the items for sale */
     display: list-item; /*sets items to be displayed in a list */
     list-style: none; /* hides bullet points */
   }  
@@ -33,12 +33,12 @@
 
   .p-Name, .p-Price { font-weight: 700; } /*sets the font thickness for each item's section */
   .p-Name, .p-Desc, .p-Price { margin: 5px 0; } /*decides the margin */
-  .p-Name { text-transform: uppercase; } /*Captialses the first letter of the name */
+  .p-Name { text-transform: uppercase; } /*Captialses the first letter of the Name */
   .p-Desc {
-    color: rgb(185, 173, 173); /* sets the colour of the description text */
-    font-size: 0.9em; /* sets the font size for the description text */
+    color: rgb(185, 173, 173); /* sets the colour of the Description text */
+    font-size: 0.9em; /* sets the font size for the Description text */
   }
-  .p-Price { font-size: 1.35em; } /* sets the font size of the price text */
+  .p-Price { font-size: 1.35em; } /* sets the font size of the Price text */
   input.p-add { width: 70%; } /*sets the length of the button */
 
   #Cart-items { /* for the Cart section */
@@ -54,7 +54,7 @@
   }
 
   .c-item > * { box-sizing: border-box; } /* controls spacing of quantity and remove buttons */
-  .c-name, .c-total, input.c-empty, input.c-checkout { width: 100%; } /* controls the width of the buttons */
+  .c-Name, .c-total, input.c-empty, input.c-checkout { width: 100%; } /* controls the width of the buttons */
   .c-total, input.c-empty, input.c-checkout { margin-top: 10px; } /* controls the magins of both buttons */
   .c-del { width: 25%; } /* controls how the buttons are spaced together ( del is 25% of line qty is 75%) */
   .c-qty { width: 75%; }
@@ -65,5 +65,5 @@
 
   @media screen AND (max-width: 768px) { /* sets max width of the page */
     #Cart-wrap { grid-template-columns: 60% 40%; } /* controls how the two sections are spaced together */
-    #Cart-products { grid-template-columns: auto; } /* sets the columns of the page */
+    #Cart-PetListings { grid-template-columns: auto; } /* sets the columns of the page */
   }
