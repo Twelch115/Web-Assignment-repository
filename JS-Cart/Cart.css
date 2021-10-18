@@ -1,4 +1,4 @@
-#Cart-wrap { /* section for general styling accross the page */
+#Cart-wrap { /*section for general styling accross the page */
     font-family: arial, sans-serif;  /* decides fonts */
     display: flex; /*determines the layout of elements */
     margin: 0 auto; /* controls of thickness of margin */
@@ -19,10 +19,11 @@
     cursor: pointer; /* controls cursor appearance */
   }
 
-  #Cart-PetListings { /* displays the items for sale */
-    display: list-item; /*sets items to be displayed in a list */
-    list-style: none; /* hides bullet points */
-  }  
+  #cart-PetListings { /* displays the items for sale */
+    display: grid; /*sets items to be displayed in a grid */
+    grid-template-columns: auto auto; /* auto sets the columns */
+    grid-gap: 10px; /*sets gap between grid items */
+  }
 
   .p-item { /* controls the borders of each item's section */
     padding: 10px; /* sets the spacing between the text and border */

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en"> <!-- set the language for the web browser to use-->
     <head>
-        <title>Pet Purrfection</title>
+        <meta charset="utf-8"> <!-- defines the character set used by this page-->
+        <title>Pet Purrfection</title> <!-- sets the title displayed on the tab bar-->
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"> </script> <!-- Latest compiled JavaScript -->
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Latest compiled and minified CSS -->
         <link rel = "stylesheet" href="Styles.css"> <!-- Adds CSS script-->
@@ -10,25 +11,25 @@
     </head>
     <body>
 
-      <nav class = "navbar navbar-expand-lg navbar-light bg-light sticky-top">  <!--initalizes a navigation bar that spans the page with black text and a light background -->
+      <nav class = "navbar navbar-expand-lg navbar-light sticky-top" style = "color:aqua" >  <!--initalizes a navigation bar that spans the page with black text and a light background -->
         <div class = "container-fluid">  <!--initalizes a container.fluid for text in the navbar-->
           <a class="navbar-brand" href="index.html"> <img src="images/Icon.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> Pet Purrfection</a> <!-- sets the site name on the far left of the nav bar, can be linked to another website-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span> <!-- these three lines create the dropdown button when the site is too small for full navbar (mobile)-->
             </button>
               <div class = "collapse navbar-collapse" id="navbarSupportedContent"> <!-- creates the collapsable function of the navbar-->
-                <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class = "navbar-text"> <!-- one section of the navbar -->  
-                    <a class ="nav-link active" href="Pages/Small-Pets.html"> SMALL PETS </a> <!-- one section of the navbar, can be linked to another website-->
+                <ul class = "navbar-nav me-auto mb-2 mb-lg-0"> <!-- sets navbar size -->
+                  <li class = "navbar-text"> <!-- creates one item on the navbar -->  
+                    <a class ="nav-link active" href="Pages/Small-Pets.html"> SMALL PETS </a> <!-- text of the navbar, can be linked to another website-->
                   </li>
-                  <li class = "navbar-text">
-                    <a class = "nav-link active" href="Pages/Large-Pets.html"> LARGE PETS </a>
+                  <li class = "navbar-text"> <!-- creates one item on the navbar -->
+                    <a class = "nav-link active" href="Pages/Large-Pets.html"> LARGE PETS </a> <!-- text of the navbar, can be linked to another website-->
                   </li>
-                  <li class = "navbar-text">   
-                    <a class = "nav-link active" href="Pages/Pet-Accessories.html"> PET ACCESSORIES </a>   
+                  <li class = "navbar-text"> <!-- creates one item on the navbar --> 
+                    <a class = "nav-link active" href="Pages/Pet-Accessories.html"> PET ACCESSORIES </a> <!-- text of the navbar, can be linked to another website--> 
                   </li>
-                  <li class = "nav-item">   
-                    <a class = "nav-link active" href="JS-Cart/Cart.html"> CART <img src="images/cart.png" alt="cart" style="width:40px;" class="img-thumbnail"> </a> <!-- adds the image of a cart to this link-->   
+                  <li class = "nav-item"> <!-- creates one item on the navbar -->
+                    <a class = "nav-link active" href="JS-Cart/Cart.html"> CART <img src="images/cart.png" alt="cart" style="width:40px;" class="img-thumbnail"> </a> <!-- text of the navbar, can be linked to another website-->   
                   </li>
                 </ul>
               </div>
@@ -36,29 +37,29 @@
       </nav>  
       
         <div id="demo" class="carousel slide" data-bs-ride="carousel"> <!-- initialises the carousel-->
-          <div class="carousel-indicators"> <!-- creates three slides on this carousel, and adds a button on the bottom for each-->
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <div class="carousel-indicators"> <!-- creates three buttons on the bottom of the carousel-->
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button> <!-- creates the button to goto the first slide-->
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button> <!-- creates the button to goto the seccond slide-->
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button> <!-- creates the button to goto the third slide-->
           </div>
 
-          <div class="carousel-inner">
-            <div class="carousel-item active"> <!-- sets the image present on each carousel slide-->
-              <img src="images/Carousel_1.jpg" alt="Pet Number 1" class="d-block w-100">
+          <div class="carousel-inner"> <!-- creates the three slides of the carousel-->
+            <div class="carousel-item active"> <!-- creates one carousel slide-->
+              <img src="images/Carousel_1.jpg" alt="Pet Number 1" class="d-block w-100"> <!-- sets the image present on this carousel slide-->
             </div>
-            <div class="carousel-item">
-              <img src="images/Carousel_2.jpg" alt="Pet Number 2" class="d-block w-100">
+            <div class="carousel-item"> <!-- creates one carousel slide-->
+              <img src="images/Carousel_2.jpg" alt="Pet Number 2" class="d-block w-100"> <!-- sets the image present on this carousel slide-->
             </div>
-            <div class="carousel-item">
-              <img src="images/Carousel_3.jpg" alt="Pet Number 3" class="d-block w-100">
+            <div class="carousel-item"> <!-- creates one carousel slide-->
+              <img src="images/Carousel_3.jpg" alt="Pet Number 3" class="d-block w-100"> <!-- sets the image present on each carousel slide-->
             </div>
           </div>
 
           <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev"> <!-- creates a button that goes to the previous slide on the carousel-->
-            <span class="carousel-control-prev-icon"></span>
+            <span class="carousel-control-prev-icon"></span> <!--sets the button icon-->
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"> <!-- creates a button that goes to the next slide on the carousel-->
-            <span class="carousel-control-next-icon"></span>
+            <span class="carousel-control-next-icon"></span> <!--sets the button icon-->
           </button>
 
         </div>
@@ -67,14 +68,14 @@
 
         <div class="container-fluid">  <!-- creates three advertisement sections-->
           <div class="row gx-5"> <!-- gx controls the spacing between columns, p contols the length of columns-->
-            <div class="col">
-             <div class="p-5 border bg-light text-center"> <h2> See our range of smaller pets! </h2> <br></br> <img src = "images/Small-Pets.jpg"> </div> 
+            <div class="col"> <!-- creates a column-->
+             <div class="p-5 border bg-light text-center"> <h2> See our range of smaller pets! </h2> <br></br> <img src = "images/Small-Pets.jpg"> </div> <!-- sets column image and text-->
             </div>
-            <div class="col">
-              <div class="p-5 border bg-light text-center"> <h2> Browse our large pet breeds! </h2> <br></br> <img src = "images/Large-Pets.jpg"> </div>
+            <div class="col"> <!-- creates a column-->
+              <div class="p-5 border bg-light text-center"> <h2> Browse our large pet breeds! </h2> <br></br> <img src = "images/Large-Pets.jpg"> </div> <!-- sets column image and text-->
             </div>
-            <div class="col">
-              <div class="p-5 border bg-light text-center"> <h2> Toys/Accessories for your Pets! </h2> <br></br> <img src = "images/Pet-Accessories.jpg"> </div>
+            <div class="col"> <!-- creates a column-->
+              <div class="p-5 border bg-light text-center"> <h2> Toys/Accessories for your Pets! </h2> <br></br> <img src = "images/Pet-Accessories.jpg"> </div> <!-- sets column image and text-->
              </div>
           </div>
         </div>
