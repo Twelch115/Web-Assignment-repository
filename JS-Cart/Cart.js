@@ -66,7 +66,7 @@ var Cart = {
 
         }
         Cart.LOAD(); //load Cart from previous sessions
-        Cart.list(); //lists items currently in the Cart
+        Cart.LIST(); //lists items currently in the Cart
     },
 
     LIST : function () { //lists items in the Cart
