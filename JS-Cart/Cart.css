@@ -19,7 +19,7 @@
     cursor: pointer; /* controls cursor appearance */
   }
 
-  #cart-PetListings { /* displays the items for sale */
+  #Cart-PetListings { /* displays the items for sale */
     display: grid; /*sets items to be displayed in a grid */
     grid-template-columns: auto auto; /* auto sets the columns */
     grid-gap: 10px; /*sets gap between grid items */

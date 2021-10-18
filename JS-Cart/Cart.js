@@ -175,4 +175,5 @@ var Cart = {
     CHECKOUT : function () {
         alert ("test");
     }   
-}
+};
+window.addEventListener("DOMContentLoaded", Cart.INITIALISE);
