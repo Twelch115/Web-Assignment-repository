@@ -28,7 +28,7 @@ var Cart = {
 
         Cart.hPdt.innerHTML = "";
         let p, item, part; //creates let variables p, item and part
-        for (let id in PetListing) {
+        for (let id in PetListing) { //for each item in the file PetListing
             
 
             p = PetListing[id]; //p is each id in PetListing
