@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> <!-- set the language for the web browser to use-->
     <head>
-        <title>Pet Purrfection - Contact Us</title>
+        <title>Pet Purrfection - Contact Us</title> <!-- sets the page title-->
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"> </script> <!-- Latest compiled JavaScript -->
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Latest compiled and minified CSS -->
         <link rel = "stylesheet" href="Styles.css"> <!-- Adds CSS script-->
@@ -9,23 +9,24 @@
         <link rel="icon" href="../images/Icon.jpg"> <!-- creates icon -->
 
         <script>
-            function FUNCValidation() {
-                let x = document.forms["ContactForm"]["forname"].value;
-                let y = document.forms["ContactForm"]["surname"].value;
-                let a = document.forms["ContactForm"]["email"].value;
-                let b = document.forms["ContactForm"]["number"].value;
-                let c = document.forms["ContactForm"]["message"].value;
-                if (x == "") {
-                  alert("Please enter a Forname.");
-                  return false;  
-                } else if (y == "") {
-                  alert("Please enter a Surname.");
-                  return false;
-                } else if (a == "" && b == "") {  
-                  alert("Please enter either a Email adress or phone number.");
-                  return false;
-                } else if (c == "") {
-                  alert("Please enter a message.")
+            function FUNCValidation() { //initalises function
+                let x = document.forms["ContactForm"]["forname"].value; //gets forname value as let variable x
+                let y = document.forms["ContactForm"]["surname"].value; //gets surname value as let variable y
+                let a = document.forms["ContactForm"]["email"].value; //gets email value as let variable a
+                let b = document.forms["ContactForm"]["number"].value; //gets phone number value as let variable b
+                let c = document.forms["ContactForm"]["message"].value; //gets message value as let variable c
+                if (x == "") { //IF x is blank
+                  alert("Please enter a Forname."); //alert to give formane
+                  return false; //function returns as false, stopping submit
+                } else if (y == "") { //alert to give surnmane
+                  alert("Please enter a Surname."); //IF y is blank
+                  return false; //function returns as false, stopping submit
+                } else if (a == "" && b == "") { //IF a OR b is blank
+                  alert("Please enter either a Email adress or phone number."); //alert to give either number or email adress
+                  return false; //function returns as false, stopping submit
+                } else if (c == "") { //IF c is blank
+                  alert("Please enter a message.") //alert to give a message
+                  return false; //function returns as false, stopping submit
                 }
             }        
         </script>
