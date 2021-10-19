@@ -1,7 +1,7 @@
 var products = {
     101: {
         Name : "Larry", //pet's Name
-        Breed : "Macaw", //pet's breed
+        Breed : "Ara Parot", //pet's breed
         Desc : "3 years-old, blue/green/yellow feathers, bubbly personality", //Description of the pet
         Img : "Larry.jpg", //Img file link
         Price : 25, //pet's Price
@@ -9,7 +9,7 @@ var products = {
     },
     102: {
         Name : "Felix",
-        Breed : "Finch",
+        Breed : "Zebra Finch",
         Desc : "6 years-old, grey/orange feathers, quiet personality",
         Img : "Felix.jpg",
         Price : 40,
