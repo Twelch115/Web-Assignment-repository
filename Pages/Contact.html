@@ -14,6 +14,7 @@
                 let y = document.forms["ContactForm"]["surname"].value;
                 let a = document.forms["ContactForm"]["email"].value;
                 let b = document.forms["ContactForm"]["number"].value;
+                let c = document.forms["ContactForm"]["message"].value;
                 if (x == "") {
                   alert("Please enter a Forname.");
                   return false;  
@@ -23,6 +24,8 @@
                 } else if (a == "" && b == "") {  
                   alert("Please enter either a Email adress or phone number.");
                   return false;
+                } else if (c == "") {
+                  alert("Please enter a message.")
                 }
             }        
         </script>
@@ -55,7 +58,7 @@
       </nav> 
 
       <div class = "container-fluid text-center">
-        <h1> Contact Us</h1>
+        <h1 style = "color: #da8037;"> Contact Us</h1>
           <form name = "ContactForm" onsubmit = "return FUNCValidation()"> <!-- a form to take a first name, last name, email adress and a message for the site, on it being submit runs the function FUNCValidation-->
               <tbody>
                   <th>
