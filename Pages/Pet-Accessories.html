@@ -4,7 +4,7 @@
         <title>Pet Purrfection - Pet Accessories</title>
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"> </script> <!-- Latest compiled JavaScript -->
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Latest compiled and minified CSS -->
-        <link rel = "stylesheet" href="Styles.css"> <!-- Adds CSS script-->
+        <link rel = "stylesheet" href="../CSS/Styles.css"> <!-- Adds CSS script-->
         <script src = "JS-Cart/Pet-Listing.js"></script> <!-- connects to JavaScript-->
         <link rel="icon" href="../images/Icon.jpg"> <!-- creates icon -->
     </head>
@@ -39,21 +39,54 @@
 
       <div class = "container-fluid"> <!-- begins the accessory showcase section--> 
 
-        <div class = "row gx-5">
-          <div class = "col-3">
-            <div class = "container-fluid border">
-              <h2><u> Filters </u></h2>
+        <div class = "row gx-5"> <!-- starts div-->
+          <div class = "col-3"> <!-- sets container for infobox-->
+            <div class = "container-fluid border"> <!-- sets container for info-->
+              <h2><u> Pet Accessories </u></h2> <!-- creates header-->
+              <p> browse our range of pet Accessories, to keep your pets happy! <br> <br> <!--creates info text with break in the middle -->
+                Accessories should arrive at your given adress within 3-5 working days. <br><br>
+                </p>
             </div>
           </div>
 
           <div class = "col-9">
             <div class = "container-fluid border">  <!-- creates a container for each item's infomation-->
-              <h2><u> Food bowl </u></h2> <!-- item's name -->
+              <h2><u> Food Bowl </u></h2> <!-- item's name -->
                 <p style = "float: right;"> <img src="../images/Pet-Images/Food-Bowl.jpg" alt = "food bowl" height="170px" width="170px" border = "1px"> </p> <!-- image of the item-->
               <h5>  Standard pet food bowl, can be filed with many kinds of foods. comes in blue, black and grey. <!-- description-->
-                  <br> ㅤ <br> ㅤ <br> Price: £8 <br> ㅤ <br> ㅤ <br> ㅤ <br> <br> <button style = "float: right;" type = "button"> Add to cart</button>ㅤ <!-- price and purchase button-->
+                  <br> ㅤ <br> ㅤ <br> Price: £8 <br> ㅤ <br> ㅤ <br> ㅤ <br> ㅤ <br> <a href="../JS-Cart/Cart.html" class="CartButton">Add to cart</a> <br>ㅤ <!-- price and purchase button-->
+              </h5>
+            </div>  
+            <br>
+            <div class = "container-fluid border">  <!-- creates a container for each item's infomation-->
+              <h2><u> Pet Leash </u></h2> <!-- item's name -->
+                <p style = "float: right;"> <img src="../images/Pet-Images/Pet-Leash.jpg" alt = "pet leash" height="170px" width="170px" border = "1px"> </p> <!-- image of the item-->
+              <h5>  A general purpose leash for your pets to take them on a walk. comes in red and black. <!-- description-->
+                  <br> ㅤ <br> ㅤ <br> Price: £12 <br> ㅤ <br> ㅤ <br> ㅤ <br> ㅤ <br> <a href="../JS-Cart/Cart.html" class="CartButton">Add to cart</a> <br>ㅤ <!-- price and purchase button-->
+              </h5>
+            </div>  
+            <br>
+            <div class = "container-fluid border">  <!-- creates a container for each item's infomation-->
+              <h2><u> Dog Toy </u></h2> <!-- item's name -->
+                <p style = "float: right;"> <img src="../images/Pet-Images/Dog-Toy.jpg" alt = "dog toy" height="170px" width="170px" border = "1px"> </p> <!-- image of the item-->
+              <h5>  A chew toy to entertain your pet dog. <!-- description-->
+                  <br> ㅤ <br> ㅤ <br> Price: £5 <br> ㅤ <br> ㅤ <br> ㅤ <br> ㅤ <br> <a href="../JS-Cart/Cart.html" class="CartButton">Add to cart</a> <br>ㅤ <!-- price and purchase button-->
+              </h5>
+            </div>  
+            <br>
+            <div class = "container-fluid border">  <!-- creates a container for each item's infomation-->
+              <h2><u> Cat Toy </u></h2> <!-- item's name -->
+                <p style = "float: right;"> <img src="../images/Pet-Images/Food-Bowl.jpg" alt = "food bowl" height="170px" width="170px" border = "1px"> </p> <!-- image of the item-->
+              <h5>  A toy mouse for your pet cat to chase and catch. <!-- description-->
+                  <br> ㅤ <br> ㅤ <br> Price: £5 <br> ㅤ <br> ㅤ <br> ㅤ <br> ㅤ <br> <a href="../JS-Cart/Cart.html" class="CartButton">Add to cart</a> <br>ㅤ <!-- price and purchase button-->
               </h5>
             </div>  
             <br>
             
-          </div>
+      </div>
+
+      <div class="container-fluid w-100 p-3 text-success bg-light"> <!-- creates bottom bar-->
+          <a href = Pages/Contact.html style = "color:orangered"> Contact us</a> <!-- links to contact page-->
+          <a style = "color:orangered"> ㅤ  ㅤ TWITTER FACEBOOK INSTAGRAM </a> <!-- false social media links-->
+          <sub style = "float: right; color:orangered"> PetPurrfection.com is not responsable for the behaviour our pet providers during pickup, and cannot be held acoutable for their actions </sub>
+      </div>
