@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang = "en"> <!-- set the language for the web browser to use-->
     <head>
-        <title>Pet Purrfection - Large Pets</title>
-        <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"> </script> <!-- Latest compiled JavaScript -->
-        <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Latest compiled and minified CSS -->
+        <meta charset="utf-8"> <!-- defines the character set used by this page-->
+        <title>Pet Purrfection - Large Pets</title> <!-- sets title-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!-- Latest compiled and minified CSS -->
         <link rel = "stylesheet" href="../CSS/Styles.css"> <!-- Adds CSS script-->
-        <script src = "JS-Cart/PetListing.js"></script> <!-- connects to JavaScript-->
+        <script src = "../JS-Cart/products.js"></script> <!-- connects to JavaScript-->
+        <script src = "../JS-Cart/Cart.js"></script> <!-- connects to JavaScript-->
         <link rel="icon" href="../images/Icon.jpg"> <!-- creates icon -->
     </head>
     <body>
@@ -50,11 +52,11 @@
           </div>
 
           <div class = "col-9">
-            <div class = "container-fluid border">  <!-- creates a container for each pets infomation-->
+            <div class = "container-fluid p-item border">  <!-- creates a container for each pets infomation-->
               <h2><u> Jake </u></h2> <!-- pet's name -->
                 <p style = "float: right;"> <img src="../images/Pet-Images/Jake.jpg" alt = "dog" height="170px" width="170px" border = "1px"> </p> <!-- image of the pet-->
               <h5>  Jake is a german shepard with brown and black fur. He is three years old, has a fun and energetic personaity and likes to eat chicken. <!-- pet description, adress and add to cart button-->
-                  <br> ㅤ <br> Price: £50 <br> ㅤ <br> Must be collected from previous owner at: <br> 30 Partington Ln, Swinton, Manchester <br> ㅤ <br> <a href="../JS-Cart/Cart.html" class="CartButton">Add to cart</a> <br>
+                  <br> ㅤ <br> Price: £50 <br> ㅤ <br> Must be collected from previous owner at: <br> 30 Partington Ln, Swinton, Manchester <br> ㅤ <br> <input type="button" value="Add to cart" class="cart p-add" data-id="107"> <br>
               </h5>
             </div>  
             <br>
@@ -83,7 +85,7 @@
             </div>  
             <br>
             <div class = "container-fluid border">  <!-- creates a container for each pets infomation-->
-              <h2><u> NAME </u></h2> <!-- pet's name -->
+              <h2><u> Sophie </u></h2> <!-- pet's name -->
                 <p style = "float: right;"> <img src="../images/Pet-Images/Sophie.jpg" alt = "cat" height="170px" width="170px" border = "1px"> </p> <!-- image of the pet-->
               <h5>  Sophie is a burmese with black fur. She is eight years old, has a shy personality and likes eating salmon and trout, she also enjoys lying on tables. <!-- pet description, adress and add to cart button-->
                  <br> ㅤ <br> Price: £45 <br> ㅤ <br> Must be collected from previous owner at: <br> 26 Park Ave, Wrexham <br> ㅤ <br> <a href="../JS-Cart/Cart.html" class="CartButton">Add to cart</a> <br>ㅤ

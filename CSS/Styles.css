@@ -9,3 +9,13 @@
     text-decoration: none; /* removes underlining on text */
     
 }
+input.cart, button.cart { /* creates a button for the page to use */
+    padding: 2px; /* controls the size of the button */
+    border: 0; /* controls the button's border */
+    background: #da8037; /* controls the buttons background colour */
+    color: #fff; /* controls text colour */
+    font-weight: 400; /* controls font size */
+    cursor: pointer; /* controls cursor appearance */
+    float: right; /* makes the button appear on the right of the div */
+    text-decoration: none; /* removes underlining on text */
+  }
