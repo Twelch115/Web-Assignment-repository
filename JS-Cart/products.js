@@ -62,6 +62,7 @@ var products = {
         Img : "Cujo.jpg", //Img file link
         Price : 86, //pet's Price
         Adress : "73 Heron's Way, Boltham", //pet's address
+    },    
     109: {
         Name : "Michelle", //pet's Name
         Breed : "Poodle", //pet's breed
@@ -97,13 +98,15 @@ var products = {
   
     113: {
         Name : "Food Bowl", //item's Name
-        Desc : "Standard pet food bowl, comes in blue, black and grey", //Description of the item
+        Breed : "Comes in grey/blue/black", //item colours
+        Desc : "Standard pet food bowl", //Description of the item
         Img : "Food-Bowl.jpg", //Img file link
         Price : 8, //item's Price
     },
 
     114: {
         Name : "Pet Leash", //item's Name
+        Breed : "Comes in red/grey", //item colours
         Desc : "genreal use pet leash, comes in red/grey", //Description of the item
         Img : "Pet-Leash.jpg", //Img file link
         Price : 12, //item's Price
@@ -111,6 +114,7 @@ var products = {
     
     115: {
         Name : "Dog Toy", //item's Name
+        Breed : "Comes in orange/pink/yellow", //item colours
         Desc : "Dog's chew toy", //Description of the item
         Img : "Dog-Toy.jpg", //Img file link
         Price :5, //item's Price
@@ -118,8 +122,9 @@ var products = {
 
     116: {
         Name : "Cat Toy", //item's Name
+        Breed : "Comes in black/white", //
         Desc : "Cat's toy mouse", //Description of the item
         Img : "Cat-Toy.jpg", //Img file link
         Price :5, //item's Price
     },
-}}     
+}     
