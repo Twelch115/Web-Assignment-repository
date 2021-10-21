@@ -29,7 +29,7 @@
     padding: 10px; /* sets the spacing between the text and border */
     border: 1px solid #ddd; /* sets border width, style and colour */
     border-radius: 5px; /* sets the border radius (big curls are) */
-    text-align: center; /* sets the text alignment */
+    text-align: center; /* sets the text alignments*/
   }
   .p-Img { max-width: 150px; max-height: 150px; } /* max image size */
   .p-Name, .p-Price { font-weight: 700; } /*sets the font thickness for each item's section */
