@@ -170,10 +170,10 @@ var cart = {
   
 
     INCREMENT : function () { //add to Cart
-      if (cart.items[this.dataset.id] == undefined) { //if Cart.items is empty 
-        cart.items[this.dataset.id] = 1; //add this as the first Cart item
-      } else { //if the Cart isn't empty
-        cart.items[this.dataset.id]++; //add this as the next incremented Cart item
+      if (cart.items[this.dataset.id] == undefined) { //IF this item isnt in Cart.items  
+        cart.items[this.dataset.id] = 1; //add one of this Cart item
+      } else { //if this item is in the Cart 
+        cart.items[this.dataset.id]++; //increment this item by one
       }
       cart.SAVE(); //save current Cart
       cart.LIST(); //list items in the Cart section
