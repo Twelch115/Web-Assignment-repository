@@ -8,97 +8,118 @@ var products = {
         Adress : "17 Hawkins Way, Halisham", //pet's address
     },
     102: {
-        Name : "Felix",
-        Breed : "Zebra Finch",
-        Desc : "6 years-old, grey/orange feathers, quiet personality",
-        Img : "Felix.jpg",
-        Price : 40,
-        Adress : "27 Grantham Dr, Holgate, York",
+        Name : "Felix", //pet's Name
+        Breed : "Zebra Finch", //pet's breed
+        Desc : "6 years-old, grey/orange feathers, quiet personality", //Description of the pet
+        Img : "Felix.jpg", //Img file link
+        Price : 40, //pet's Price
+        Adress : "27 Grantham Dr, Holgate, York", //pet's address
     },
     103: {
-        Name : "Sarah",
-        Breed : "Angorah Rabbit",
-        Desc : "2 years-old, grey/white fur, curious personality <br> ㅤ",
-        Img : "Sarah.jpeg",
-        Price : 15,
-        Adress : "8 Noble st, Bradford",
+        Name : "Sarah", //pet's Name
+        Breed : "Angorah Rabbit", //pet's breed
+        Desc : "2 years-old, grey/white fur, curious personality <br> ㅤ", //Description of the pet
+        Img : "Sarah.jpeg", //Img file link
+        Price : 15, //pet's Price
+        Adress : "8 Noble st, Bradford", //pet's address
     },
     104: {
-        Name : "Ryan",
-        Breed : "Mongolian Gerbil",
-        Desc : "3 years-old , white/brown fur, excited personality <br> ㅤ",
-        Img : "Ryan.jpg",
-        Price : 20,
-        Adress : "32 Colin Dr, Liverpool",
+        Name : "Ryan", //pet's Name
+        Breed : "Mongolian Gerbil", //pet's breed
+        Desc : "3 years-old , white/brown fur, excited personality <br> ㅤ", //Description of the pet
+        Img : "Ryan.jpg", //Img file link
+        Price : 20, //pet's Price
+        Adress : "32 Colin Dr, Liverpool", //pet's address
     },
     105: {
-        Name : "Joe",
-        Breed : "Spotted Salamander",
-        Desc : "4 years-old , black scales, relaxed personality <br> ㅤ",
-        Img : "Joe.jpg",
-        Price : 30,
-        Adress : "110 Woolhope rd, Worcester",
+        Name : "Joe", //pet's Name
+        Breed : "Spotted Salamander", //pet's breed
+        Desc : "4 years-old , black scales, relaxed personality <br> ㅤ", //Description of the pet
+        Img : "Joe.jpg", //Img file link
+        Price : 30, //pet's Price
+        Adress : "110 Woolhope rd, Worcester", //pet's address
     },
     106: {
-        Name : "Oswald",
-        Breed : "Corn Snake",
-        Desc : "8 year-old, brown//grey scales, sleepy personality",
-        Img : "Oswald.jpg",
-        Price : 60,
-        Adress : "34 Wash ln, Warrington",
+        Name : "Oswald", //pet's Name
+        Breed : "Corn Snake", //pet's breed
+        Desc : "8 year-old, brown//grey scales, sleepy personality", //Description of the pet
+        Img : "Oswald.jpg", //Img file link
+        Price : 60, //pet's Price
+        Adress : "34 Wash ln, Warrington", //pet's address
     },
     107: {
-        Name : "Jake",
-        Breed : "German Shepard",
-        Desc : "3 year-old, brown fur, fun personality <br> ㅤ",
-        Img : "Jake.jpg",
-        Price : 50,
-        Adress : "30 Partington Ln, Swinton, Manchester",
+        Name : "Jake", //pet's Name
+        Breed : "German Shepard", //pet's breed 
+        Desc : "3 year-old, brown fur, fun personality <br> ㅤ", //Description of the pet
+        Img : "Jake.jpg", //Img file link
+        Price : 50, //pet's Price
+        Adress : "30 Partington Ln, Swinton, Manchester", //pet's address
     },
     108: {
-        Name : "Cujo",
-        Breed : "Saint Bernard",
-        Desc : "2 year-old, brown/white fur, aggressive personality",
-        Img : "Cujo.jpg",
-        Price : 86,
-        Adress : "73 Heron's Way, Boltham",
+        Name : "Cujo", //pet's Name
+        Breed : "Saint Bernard", //pet's breed
+        Desc : "2 year-old, brown/white fur, aggressive personality", //Description of the pet
+        Img : "Cujo.jpg", //Img file link
+        Price : 86, //pet's Price
+        Adress : "73 Heron's Way, Boltham", //pet's address
     109: {
-        Name : "Michelle",
-        Breed : "Poodle",
-        Desc : "4 year-old, white, quiet personality",
-        Img : "Michelle.jpg",
-        Price : 30,  
-        Adress : "16 Pierce St, Macclesfield",  
+        Name : "Michelle", //pet's Name
+        Breed : "Poodle", //pet's breed
+        Desc : "4 year-old, white, quiet personality", //Description of the pet
+        Img : "Michelle.jpg", //Img file link
+        Price : 30, //pet's Price
+        Adress : "16 Pierce St, Macclesfield", //pet's address
     },
     110: {
-        Name : "Bertie",
-        Breed : "Norwegian Forest",
-        Desc : "7 year-old, black/grey fur, independant personality",
-        Img : "Bertie.jpg",
-        Price : 60,
-        Adress : "28 Northumberland Rd, Broomhall, Sheffield",
+        Name : "Bertie", //pet's Name
+        Breed : "Norwegian Forest", //pet's breed
+        Desc : "7 year-old, black/grey fur, independant personality", //Description of the pet
+        Img : "Bertie.jpg", //Img file link
+        Price : 60, //pet's Price
+        Adress : "28 Northumberland Rd, Broomhall, Sheffield", //pet's address
     },
     111: {
-        Name : "Sophie",
-        Breed : "Burmese",
-        Desc : "9 year-old, black fur, shy personality",
-        Img : "Sophie.jpg",
-        Price : 45,
-        Adress : "26 Park Ave, Wrexham",
+        Name : "Sophie", //pet's Name
+        Breed : "Burmese", //pet's breed
+        Desc : "9 year-old, black fur, shy personality", //Description of the pet
+        Img : "Sophie.jpg", //Img file link
+        Price : 45, //pet's Price
+        Adress : "26 Park Ave, Wrexham", //pet's address
     },  
     112: {
-        Name : "Teddy",
-        Breed : "British Shorthair",
-        Desc : "1 year-old, Ginger fur, excitable personality",
-        Img : "Teddy.jpg",
-        Price : 20,
-        Adress : "11 Royal Ave, Doncaster",
+        Name : "Teddy", //pet's Name
+        Breed : "British Shorthair", //pet's breed
+        Desc : "1 year-old, Ginger fur, excitable personality", //Description of the pet
+        Img : "Teddy.jpg", //Img file link
+        Price : 20, //pet's Price
+        Adress : "11 Royal Ave, Doncaster", //pet's address
     }, 
   
     113: {
         Name : "Food Bowl", //item's Name
-        Desc : "Standard pet food bowl, can be filed with many kinds of foods. comes in blue, black and grey", //Description of the item
+        Desc : "Standard pet food bowl, comes in blue, black and grey", //Description of the item
         Img : "Food-Bowl.jpg", //Img file link
+        Price : 8, //item's Price
+    },
+
+    114: {
+        Name : "Pet Leash", //item's Name
+        Desc : "genreal use pet leash, comes in red/grey", //Description of the item
+        Img : "Pet-Leash.jpg", //Img file link
         Price : 12, //item's Price
+    },
+    
+    115: {
+        Name : "Dog Toy", //item's Name
+        Desc : "Dog's chew toy", //Description of the item
+        Img : "Dog-Toy.jpg", //Img file link
+        Price :5, //item's Price
+    },
+
+    116: {
+        Name : "Cat Toy", //item's Name
+        Desc : "Cat's toy mouse", //Description of the item
+        Img : "Cat-Toy.jpg", //Img file link
+        Price :5, //item's Price
     },
 }}     
