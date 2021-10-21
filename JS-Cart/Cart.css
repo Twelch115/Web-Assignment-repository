@@ -67,4 +67,4 @@
   @media screen AND (max-width: 768px) { /* sets max width of the page */
     #cart-wrap { grid-template-columns: 60% 40%; }  /* controls how the two sections are spaced together */
     #cart-products { grid-template-columns: auto; } /* sets the columns of the page */
-  } /*fixes */
+  } /*fixes for stuff and yeah */
