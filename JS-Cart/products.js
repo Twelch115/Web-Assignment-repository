@@ -126,5 +126,5 @@ var products = {
         Desc : "Cat's toy mouse", //Description of the item
         Img : "Cat-Toy.jpg", //Img file link
         Price :5, //item's Price
-    },
+    }, //fixed
 }     
