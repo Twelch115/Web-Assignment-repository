@@ -18,4 +18,4 @@ input.cart, button.cart { /* creates a button for the page to use */
     cursor: pointer; /* controls cursor appearance */
     float: right; /* makes the button appear on the right of the div */
     text-decoration: none; /* removes underlining on text */
-  }
+  } /*fix*/
